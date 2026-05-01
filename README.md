@@ -36,19 +36,14 @@ Para garantizar la estabilidad de la simulación, se han configurado los siguien
 | **2. Obstáculo Frontal** | Acumulación de cajas (Sobre carga). | El sensor detecta la saturación y mantiene la banda detenida. | Ajuste de fricción en la banda para evitar que las cajas "patinen" (Evidencia: `Caso 1 sobre carga.png`). |
 | **3. Terreno/Carga Irregular** | Cajas generadas aleatoriamente. | Estabilidad mantenida en la detección; los objetos rojos fluyen sin activar el brazo. | Reajuste de la altura del sensor para evitar lecturas de la banda misma. |
 
-## 5. Instrucciones de Ejecución
-1.  Abrir **CoppeliaSim** (V4.x o superior).
-2.  Cargar el archivo de escena **`ASD.ttt`** o **`p2_dedo_.ttt`**.
-3.  Asegurarse de que los archivos `Script1.lua`, `Script2.lua` y `Script3.lua` estén asociados a los objetos correspondientes (`Cuboid`, `Dummy` y `sensorRay`).
-4.  Presionar el botón **Play (▶️)**.
-5.  Monitorear los mensajes en la consola para verificar las detecciones ("Verde detectado").
+## 5. Evidencia Visual
+* **Vista General:** Imagen de la jerarquía completa y el entorno de la banda.
+* <img width="1918" height="852" alt="image" src="https://github.com/user-attachments/assets/7a736e9b-2c25-4158-beff-10c154ab11ff" />
 
-## 6. Evidencia Visual
-* **Vista General:** Imagen de la jerarquía completa y el entorno de la banda (ver `image_7762ff.jpg`).
 * **Primer Plano del Sensor:** Capturas detalladas en la carpeta `/Evidencia` mostrando la interacción con objetos verdes y rojos bajo condiciones de sobrecarga.
 
 ***
 
-### Notas Técnicas del Desarrollador:
+### Notas:
 * Se utilizó **Lua (Child Scripts)** para el control interno por su baja latencia en la respuesta a sensores.
 * El control de las juntas se realiza mediante `sim.setJointTargetPosition`, asegurando movimientos suaves y controlados.
