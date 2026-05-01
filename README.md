@@ -38,7 +38,7 @@ Para garantizar la estabilidad de la simulación, se han configurado los siguien
 
 ## 5. Evidencia Visual
 * **Vista General:** Imagen de la jerarquía completa y el entorno de la banda.
-* <img width="1918" height="852" alt="image" src="https://github.com/user-attachments/assets/7a736e9b-2c25-4158-beff-10c154ab11ff" />
+<img width="1918" height="852" alt="image" src="https://github.com/user-attachments/assets/7a736e9b-2c25-4158-beff-10c154ab11ff" />
 
 * **Primer Plano del Sensor:** Capturas detalladas en la carpeta `/Evidencia` mostrando la interacción con objetos verdes y rojos bajo condiciones de sobrecarga.
 
