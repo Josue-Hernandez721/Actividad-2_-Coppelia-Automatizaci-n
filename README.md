@@ -1,5 +1,8 @@
 # Actividad 2: Automatización y Comportamiento Autónomo en CoppeliaSim
 
+#### **Autor:** Josue Guadalupe Hernandez Perez
+#### **Autor:** Rendon Hernandez Christopher
+
 Este proyecto presenta una estación de trabajo automatizada que integra un brazo robótico, un sistema de transporte y sensores inteligentes para la clasificación de objetos por color en un entorno dinámico.
 
 ## 1. Descripción del Comportamiento Autónomo
